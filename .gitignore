@@ -1,0 +1,49 @@
+### General ###
+*.log
+*.class
+*.swp
+*.swo
+*.DS_Store
+*.orig
+
+### Build Output ###
+/build/
+/out/
+/bin/
+/nbbuild/
+/dist/
+/nbdist/
+/.gradle/
+/HELP.md
+
+### Gradle ###
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+**/build/    # covers main/test/build
+!src/**/build/  # allow nested builds only inside src (if intentional)
+**/out/
+!src/**/out/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+.sts4-cache/
+.springBeans/
+
+### Eclipse (STS) ###
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath/
+
+### VS Code ###
+.vscode/
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
